@@ -7,8 +7,8 @@
 "colorscheme nord
 "colorscheme base16-nord
 "colorscheme tokyonight
-"colorscheme everforest
-colorscheme base16-black-metal-venom
+colorscheme everforest
+"colorscheme base16-black-metal-venom
 
 let g:onedark_config = {
             \ 'style': 'deep'
