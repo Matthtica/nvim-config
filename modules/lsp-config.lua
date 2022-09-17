@@ -50,6 +50,7 @@ local servers = {
     'html',
     'cssls',
     'sumneko_lua',
+    'jsonls',
 }
 
 for _, lsp in ipairs(servers) do

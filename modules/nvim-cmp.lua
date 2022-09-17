@@ -38,25 +38,25 @@ cmp.setup {
         end,
     },
     mapping = cmp.mapping.preset.insert({
-        ['<S-Tab>'] = cmp.mapping.select_prev_item(),
-        ['<Tab>'] = cmp.mapping.select_next_item(),
+        ['<C-p>'] = cmp.mapping.select_prev_item(),
+        ['<C-n>'] = cmp.mapping.select_next_item(),
         ['<C-d>'] = cmp.mapping.scroll_docs(-4),
         ['<C-f>'] = cmp.mapping.scroll_docs(4),
         ['<C-Space>'] = cmp.mapping.complete(),
         ['<C-e>'] = cmp.mapping.close(),
         ['<CR>'] = cmp.mapping.confirm({ select = true }),
-        ['<C-n>'] = cmp.mapping(
-            function(fallback)
-                cmp_ultisnips_mappings.expand_or_jump_forwards(fallback)
-            end,
-            { "i", "s" }
-        ),
-        ['C-p'] = cmp.mapping(
-            function(fallback)
-                cmp_ultisnips_mappings.jump_backwards(fallback)
-            end,
-            { "i", "s" }
-        ),
+        --['<C-n>'] = cmp.mapping(
+        --    function(fallback)
+        --        cmp_ultisnips_mappings.expand_or_jump_forwards(fallback)
+        --    end,
+        --    { "i", "s" }
+        --),
+        --['C-p'] = cmp.mapping(
+        --    function(fallback)
+        --        cmp_ultisnips_mappings.jump_backwards(fallback)
+        --    end,
+        --    { "i", "s" }
+        --),
     }),
     sources = {
         {name = 'buffer'}, {name = 'nvim_lsp'}, {name = 'ultisnips'},
