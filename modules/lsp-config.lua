@@ -51,6 +51,8 @@ local servers = {
     'cssls',
     'sumneko_lua',
     'jsonls',
+    'cmake',
+    'marksman',
 }
 
 for _, lsp in ipairs(servers) do

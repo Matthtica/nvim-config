@@ -19,3 +19,4 @@ source $HOME/.config/nvim/modules/treesitter.lua
 source $HOME/.config/nvim/modules/keymaps.vim
 source $HOME/.config/nvim/modules/markdownprev.vim
 source $HOME/.config/nvim/modules/whichkey.lua
+source $HOME/.config/nvim/modules/todo-comments.lua

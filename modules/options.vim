@@ -26,5 +26,5 @@ set conceallevel=1
 set timeoutlen=500
 set clipboard=unnamedplus
 set termguicolors
-set guifont=BlexMono\ Nerd\ Font:11
+"set guifont=BlexMono\ Nerd\ Font:11
 set completeopt=menu,menuone,noselect

@@ -59,24 +59,28 @@ cmp.setup {
         --),
     }),
     sources = {
-        {name = 'buffer'}, {name = 'nvim_lsp'}, {name = 'ultisnips'},
-        {name = "path"}, {name = 'cmp_tabnine'}, {name = "calc"},
+        {name = 'buffer', priority = 3},
+        {name = 'nvim_lsp', priority = 8},
+        {name = 'ultisnips', priority = 6},
+        {name = "path", priority = 5},
+        {name = 'cmp_tabnine', priority = 7},
+        {name = "calc", priority = 4},
     },
     completion = {completeopt = 'menu,menuone,noinsert'},
-    sorting = {
-        priority_weight = 5,
-        comparators = {
-            require('cmp_tabnine.compare'),
-            compare.score,
-            compare.exact,
-            compare.offset,
-            compare.recently_used,
-            compare.kind,
-            compare.sort_text,
-            compare.length,
-            compare.order,
-        },
-    },
+    -- sorting = {
+    --     priority_weight = 2,
+    --     comparators = {
+    --         require('cmp_tabnine.compare'),
+    --         compare.score,
+    --         compare.exact,
+    --         compare.recently_used,
+    --         compare.order,
+    --         compare.offset,
+    --         compare.kind,
+    --         compare.sort_text,
+    --         compare.length,
+    --     },
+    -- },
 }
 
 -- TabNine

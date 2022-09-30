@@ -6,7 +6,7 @@ Plug 'bfrg/vim-cpp-modern'
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
-Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lua/plenary.nvim' " asynchronous programming library
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'mhinz/vim-startify'
 Plug 'jiangmiao/auto-pairs'
@@ -45,5 +45,7 @@ Plug 'quangnguyen30192/cmp-nvim-ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'folke/which-key.nvim'
+Plug 'folke/todo-comments.nvim'
+Plug 'jceb/vim-orgmode'
 
 call plug#end()

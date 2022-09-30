@@ -1,12 +1,12 @@
 "colorscheme base16-gruvbox-dark-medium
 "colorscheme gruvbox
-"colorscheme palenight
+colorscheme palenight
 "colorscheme base16-material-palenight
 "colorscheme onedark
 "colorscheme base16-nord
 "colorscheme nord
 "colorscheme base16-nord
-colorscheme tokyonight
+"colorscheme tokyonight
 "colorscheme everforest
 "colorscheme base16-black-metal-venom
 
