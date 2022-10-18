@@ -53,6 +53,8 @@ local servers = {
     'jsonls',
     'cmake',
     'marksman',
+    'clojure_lsp',
+    'bashls',
 }
 
 for _, lsp in ipairs(servers) do

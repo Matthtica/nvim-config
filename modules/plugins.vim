@@ -47,5 +47,6 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'folke/which-key.nvim'
 Plug 'folke/todo-comments.nvim'
 Plug 'jceb/vim-orgmode'
+Plug 'vlime/vlime', {'rtp': 'vim/'}
 
 call plug#end()
