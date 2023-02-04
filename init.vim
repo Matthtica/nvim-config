@@ -4,6 +4,7 @@ source $HOME/.config/nvim/modules/vim-cpp-modern.vim
 source $HOME/.config/nvim/modules/nvim-tree.lua
 source $HOME/.config/nvim/modules/vim-sneak.vim
 source $HOME/.config/nvim/modules/toggleterm.lua
+source $HOME/.config/nvim/modules/colorscheme.lua
 source $HOME/.config/nvim/modules/colorscheme.vim
 source $HOME/.config/nvim/modules/blamer.vim
 source $HOME/.config/nvim/modules/nord.vim
@@ -14,6 +15,7 @@ source $HOME/.config/nvim/modules/colorizer.lua
 source $HOME/.config/nvim/modules/colorpicker.lua
 source $HOME/.config/nvim/modules/lsp-installer.lua
 source $HOME/.config/nvim/modules/lsp-config.lua
+source $HOME/.config/nvim/modules/csharp.lua
 source $HOME/.config/nvim/modules/nvim-cmp.lua
 source $HOME/.config/nvim/modules/treesitter.lua
 source $HOME/.config/nvim/modules/keymaps.vim

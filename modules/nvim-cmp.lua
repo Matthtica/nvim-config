@@ -63,7 +63,7 @@ cmp.setup {
         {name = 'nvim_lsp', priority = 8},
         {name = 'ultisnips', priority = 6},
         {name = "path", priority = 5},
-        {name = 'cmp_tabnine', priority = 7},
+        --{name = 'cmp_tabnine', priority = 7},
         {name = "calc", priority = 4},
     },
     completion = {completeopt = 'menu,menuone,noinsert'},
