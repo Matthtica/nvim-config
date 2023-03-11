@@ -40,8 +40,7 @@ local keymaps = {
     g = { '<Cmd>LazyGit<CR>', 'LazyGit' },
     h = { ':split<CR>', 'HorizontalSplit' },
     l = { ':MarkdownPreviewToggle<CR>', 'MarkdownPreview' },
-    m = { ':Neogit<CR>', 'Neogit' },
-    n = { ':NvimTreeToggle<CR>', 'NvimTree' },
+    n = { ':NeoTreeFocusToggle<CR>', 'NeoTree' },
     p = {
         name = "vim-plug",
         i = { ':PlugInstall<CR>', 'plug-install' },
@@ -51,7 +50,15 @@ local keymaps = {
     },
     q = { ':wq!<CR>', 'Save and quit' },
     r = { ':RnvimrToggle<CR>', 'ranger' },
-    s = { ':w<CR>', 'Save' },
+    S = { ':w<CR>', 'Save' },
+    s = {
+        name = "spectre",
+        S = { '<cmd>lua require("spectre").open()<CR>', 'spectre' },
+        w = { '<cmd>lua require("spectre").open_visual({select_word=true})<CR>', 'open visual word' },
+        s = { '<esc>:lua require("spectre").open_visual()<CR>', 'open visual' },
+        p = { '<cmd>lua require("spectre").open_file_search()<CR>', 'open file' }
+    },
+
     t = { ':Telescope<CR>', 'Telescope' },
     v = { ':vsplit<CR>', 'verticalSplig' },
     w = {
